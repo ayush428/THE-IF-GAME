@@ -8,13 +8,19 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 };
 const len = arr.length;
+
+document.getElementById("IFb").onclick = onClickifd;
+document.getElementById("THENb").onclick = onClickthend;
+
 function onClickthend(){
-          var thendiv = document.getElementByID('thend');
-          thendiv.innerHTML = arr[getRandomInt(0,len)];
+          var thendiv = document.getElementById('thend');
+          var thenindex = getRandomInt(0,len-1);
+          thendiv.innerHTML = arr[thenindex];
 };
 function onClickifd(){
-          var ifdiv = document.getElementByID('ifd');
-          ifdiv.innerHTML = arr[getRandomInt(0,len)];
+          var ifdiv = document.getElementById('ifd');
+          var ifindex = getRandomInt(0,len-1);
+          ifdiv.innerHTML = arr[ifindex];
 };
 
 // document.addEventListener("DOMContentLoaded", function() {
@@ -31,5 +37,3 @@ function onClickifd(){
 //         alert(arr[getRandomInt(0,len)]);
 //     })
 // });
-
-
