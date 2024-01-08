@@ -6,12 +6,19 @@
     <title>Document</title>
 </head>
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&family=Roboto+Mono:wght@700&family=Roboto+Slab:wght@900&family=Rubik:wght@900&family=Tektur:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&family=Roboto+Mono:wght@700&family=Roboto+Slab:wght@900&family=Rubik:wght@900&family=Tektur:wght@700;900&display=swap');
     *{
         margin: 0;padding: 0;
     }
     main{
         height: 100vh;width: 100vw;
-        background-color: black;
+        
+        background-image: url('bg.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+  background-size: cover;
+        
     }
     .head{
         height: auto;
@@ -19,33 +26,38 @@
         font-size: xx-large;
         margin-left: 43%;
         padding-top: 20px;
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: 'Tektur', sans-serif;
         color: white;
 
     }
     .body{
-        height: 90%;
+        height: 80%;
         width: 100%;
         display: flex;justify-content: center;align-items: center;
     }
     .then{
         height: 80%;
-        width: 50%;
+        width: 40%;
         
     }
     .if{
         height: 80%;
-        width: 50%;
+        width: 40%;
         
     }
     .des{
+        margin-top: -40px;
         font-size: xx-large;
         font-weight: 900;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        height: 150px;width: 150px;
+        height: 250px;width: 250px;
         display: flex;justify-content: center;align-items: center;
         color: white;
         border-radius: 50%;
+       
+        font-size: xx-large;
+        font-family: Arial, Helvetica, sans-serif;
+        
         
     }
     .click{
@@ -67,19 +79,53 @@
     }
     .displ{
         color: white;
-        height: 40% ;
+        height: 50% ;
         width: 100%;
         display: flex;justify-content: center;align-items: center;
+        
+        font-weight: 900;
+        font-size: xx-large;
+        font-family: 'Tektur', sans-serif;
+        text-align: center;
+        
         
     }
 
     .btn{
-        height: 40px;width: 60px;
+        height: 60px;width: 80px;
+        border-radius: 8px;
+        transition-duration: 0.4s;
+        background-color: lightcoral;
+        font-size: large;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
 
     }
+    .btn:hover {
+         /* Green */
+        color: white;
+        background-color: red;
+        height: 80px;width: 100px;
+        font-size: x-large;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+
+
+
+
+
+
+
+
+
+
+
+    
 </style>
 <body>
     <main>
+        
         <div class="head">THE IF GAME</div>
         <div class="body">
             <div class="then">
