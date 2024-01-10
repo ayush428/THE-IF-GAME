@@ -53,6 +53,13 @@ background-size: cover;
     
     
 }
+.disclaimer{
+    background-color: white;
+    color: red;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;justify-content: center;align-items: center;
+}   
 .credits{
     color: white;
     display: flex;
