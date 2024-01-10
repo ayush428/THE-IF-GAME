@@ -1,3 +1,9 @@
+
+
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&family=Roboto+Mono:wght@700&family=Roboto+Slab:wght@900&family=Rubik:wght@900&family=Tektur:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&family=Roboto+Mono:wght@700&family=Roboto+Slab:wght@900&family=Rubik:wght@900&family=Tektur:wght@700;900&display=swap');
@@ -53,6 +59,14 @@ background-size: cover;
     
     
 }
+.credits{
+    color: white;
+    display: flex;
+    justify-content: center;align-items: center;
+    font-size: medium;
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .click{
     height: 30%;
     width: 100%;
@@ -103,6 +117,9 @@ background-size: cover;
     font-size: x-large;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
+
+
+
 
 
 
